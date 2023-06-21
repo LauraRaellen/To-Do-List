@@ -1,8 +1,8 @@
-<h1 align="center" font-family="Ubuntu">To Do List</h1>
+<h1 align="center" font-family='"Ubuntu"'>To Do List</h1>
 
 ## Descrição do Projeto
 
-<p >Minha primeira aplicação com React e Vite, é uma aplicação simplis para eu praticar meu conhecimentos</p>
+<p >Minha primeira aplicação com React e Vite, é uma aplicação simples para eu praticar meu conhecimentos</p>
 
 ### 🛠 Tecnologias
 
