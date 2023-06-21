@@ -8,8 +8,8 @@ function Todo ({ todo }) {
               <p>{todo.text}</p>
               <p className="category">({todo.category})</p>
             </div>
-            <button>Completar</button>
-            <button>X</button>
+            <button className='complete'>Completar</button>
+            <button className='remove'>X</button>
           </div>
   )
 }

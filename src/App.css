@@ -40,7 +40,7 @@ button {
   border: none;
   border-radius: 3px;
   cursor: pointer;
-  opacity: .8;
+  opacity: .7;
   transition: .3s;
 }
 
@@ -58,4 +58,11 @@ input, select {
   border: 1px solid #DDD;
   border-radius: 3px;
   width: 100%;
+}
+.complete {
+  background-color: #5cb85c;
+}
+
+.remove{
+  background-color: #D9534f;
 }
