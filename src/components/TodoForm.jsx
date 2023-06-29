@@ -1,14 +1,14 @@
 
-import { useState, useTransition } from 'react'
+import { useState} from 'react'
 
-export default function TodoForm() {
+export default function TodoForm({ addTodo }) {
   const [value, setValue] = useState("");
   const [category, setCategory] = useState ("");
 
   const handleSubmit = (e) => {
     e.preventDefault()
     if (!value || !category) return;
-
+    addTodo(value,category)
     setValue("")
     setCategory("")
   }

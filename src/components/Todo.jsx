@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Todo ({ todo }) {
+function Todo ({ todo, removeTodo }) {
   return (
     
         <div className="todo">
@@ -8,8 +8,10 @@ function Todo ({ todo }) {
               <p>{todo.text}</p>
               <p className="category">({todo.category})</p>
             </div>
-            <button className='complete'>Completar</button>
-            <button className='remove'>X</button>
+            <div>
+              <button className='complete'>Completar</button>
+              <button className='remove' onClick={() => removeTodo(todo.id)}>X</button>
+            </div>
           </div>
   )
 }
